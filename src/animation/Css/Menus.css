@@ -1,0 +1,230 @@
+
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.card-name {
+  overflow: hidden;
+}
+
+.running-effect {
+  animation: running-effect linear 5s infinite;
+  width: max-content;
+  white-space: nowrap;
+}
+
+@keyframes running-effect {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+
+
+
+.card {
+  display: flex;
+  flex-wrap: wrap;
+  height: 280px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 17px;
+  overflow: hidden;
+  margin-bottom: 20px;
+  width: 300px;
+  margin: 40px;
+  
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+  
+
+}
+
+ /*Image*/
+.card-image {
+  position: absolute;
+  transition: all 1s cubic-bezier(0.645, 0.045, 0.355, 1);
+  background: #0a3394;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to top, #0a3394, #4286f4);
+  
+
+.card-image img {
+  max-width: 100%;
+  max-height: 100%;
+  
+}
+/* Menus.css */
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  columns: 100;
+}
+
+.menu-line {
+  width: 100%;
+  height: 1px;
+  background-color: #000000;
+  margin-bottom: 16px;
+}
+
+}
+
+/*Description */
+.card-description {
+  display: flex;
+  position: absolute;
+  gap: .5em;
+  flex-direction: column;
+  background-color: #ffffff;
+  opacity: 100%;
+  color: #000000;
+  height: 50%;
+  width: 100%;
+  bottom: 0;
+  border-radius: 8px;
+  transition: all 1s cubic-bezier(0.645, 0.045, 0.355, 1);
+  padding: 1rem;
+}
+
+/*Text*/
+.text-title {
+  font-size: 20px;
+  font-weight: 700;
+
+}
+
+.text-body {
+  font-size: 10px;
+  line-height: 130%;
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+/* Hover states */
+.card:hover .card-description {
+  transform: translateY(100%);
+}
+
+
+
+.p {
+  font-size: 20px;
+  font-weight:200;
+}
+.br {
+  margin: 10px;
+  padding: 3;
+}
+.card-container {
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:center ;
+  columns: 5;
+}
+
+
+
+
+.card-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  
+  
+}
+
+.card-description {
+  padding: 20px;
+  text-align: center;
+}
+
+.text-title {
+  font-size: 20px;
+  font-weight:500;
+  margin-bottom: 10px;
+}
+
+.text-body {
+  font-size: 16px;
+  color: #ffffff;
+}
+
+.category-buttons {
+  display: flex;
+  justify-content: center;
+};
+
+.category-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+
+
+
+
+/* For screens smaller than 600px */
+@media (max-width: 600px) {
+  .category-buttons {
+    flex-direction: column;
+    
+  }
+  .category-buttons1 {
+    margin: 5px;
+    padding: 10px;
+    font-size: 16px;
+  }
+}
+.card-image-1 {
+  position: relative;
+}
+
+.cart-icon {
+  position: absolute;
+  top: -1px;
+  right: -1px;
+  z-index: 10;
+  font-size: medium;
+}
+.cart {
+  border-radius: 30%;
+  width: 300px;
+  font-size: 30px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  top: -10px;
+  right: -10px;
+  cursor: pointer;
+  transform: perspective(500px) rotateX(30deg) rotateY(10deg);
+  transition: transform 0.3s ease;
+}
+
+.cart:hover {
+  transform: perspective(500px) rotateX(0deg) rotateY(0deg);
+}
+
+
+
+/* For screens between 600px and 1200px */
+@media (min-width: 600px) and (max-width: 1200px) {
+  .category-buttons {
+    flex-direction: column;
+  }
+}
+
+/* For screens larger than 1200px */
+@media (min-width: 1200px) {
+  
+  
+}
