@@ -5,7 +5,7 @@ export const PostContext = createContext();
 export const PostProvider = ({ children }) => {
   const [postDetails, setPostDetails] = useState(null);
   const [userDetails, setUserDetails] = useState(null);
-  const [uploaderName, setUploaderName] = useState(""); // Add the uploaderName state
+  const [uploaderName, setUploaderName] = useState(""); // Fix the variable name
 
   return (
     <PostContext.Provider
@@ -14,7 +14,7 @@ export const PostProvider = ({ children }) => {
         setPostDetails,
         userDetails,
         setUserDetails,
-        uploaderName, // Include the uploaderName state in the context value
+        uploaderName, // Include the correct variable name in the context value
       }}
     >
       {children}
