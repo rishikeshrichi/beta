@@ -75,12 +75,13 @@ function Product() {
   
 
   return (
-    <section className="card-container">
+    <section className="card-container" style={{justifyItems:"center",width:"100%"}}>
      {products.map((product) => (
   <div
     key={product.id}
     className="card"
     onClick={() => handleProductClick(product)}
+    style={{justifyItems:"center",marginLeft:"10px"}}
   >
           <div className="card-image">
             <img style={{ width: 'cover' }} src={product.url} alt={product.name} />

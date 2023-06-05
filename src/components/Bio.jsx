@@ -271,23 +271,6 @@ function Profile() {
             ) : (
               <>
                 <h1 className="profile-username">{displayName}</h1>
-                {isFollowing ? (
-                  <button
-                    className="following-button"
-                    style={{ borderRadius: "50px" }}
-                    onClick={handleUnfollow}
-                  >
-                    Following
-                  </button>
-                ) : (
-                  <button
-                    className="follow-button"
-                    style={{ borderRadius: "50px" }}
-                    onClick={handleFollow}
-                  >
-                    Follow
-                  </button>
-                )}
               </>
             )}
           </div>
@@ -376,7 +359,7 @@ function Profile() {
                       ))}
                   </section>
                 ) : (
-                  <p>No items in the cart.</p>
+                  <p style={{position:"relative",alignItems:"center",textAlign:"center"}}>No items in the cart.</p>
                 )}
               </div>
             )}

@@ -218,7 +218,7 @@ function RecipeDetails() {
     }
   };
 
-  if (!postDetails) {
+  if (!postDetails || !postDetails.name || !postDetails.ingredients || !postDetails.instructions || !postDetails.uploaderName) {
     return (
       <div>
         <Loader />
@@ -330,7 +330,7 @@ function RecipeDetails() {
       <Header />
       <div className="recipe-details">
         <div className="aside">
-          <img src={url} alt={name} className="recipe-image" />
+          <img style={{alignItems:"center",marginLeft:"10px",marginRight:"10px"}} src={url} alt={name} className="recipe-image" />
           <h1 className="recipe-title">{name}</h1>
 
            <div
@@ -358,9 +358,9 @@ function RecipeDetails() {
                 />
            <div style={{ flex: "1" }}>
               <div>
-                <p>{uploaderName}</p>
+                <p className="uploader">{uploaderName}</p>
               </div>
-              <p style={{ marginBottom: "0", fontSize: "14px" ,color:"black"}}>
+              <p className="follow-count" style={{ marginBottom: "0", fontSize: "14px" ,color:"black"}} class="follow-count">
       {followerCount} Followers
       </p>
      
@@ -416,12 +416,12 @@ function RecipeDetails() {
         </div>
         <div className="content">
           <section>
-            <h2 className="section-title" style={{ textAlign: "center" }}>
+            <h2 className="section-title" style={{ textAlign: "center" ,width:"100%"}}>
               Ingredients
             </h2>
             <ul className="ingredient-list">
               {ingredients.split("\n").map((ingredient, index) => (
-                <li key={index}>{ingredient}</li>
+                <li className="ing" key={index}>{ingredient}</li>
               ))}
             </ul>
           </section>

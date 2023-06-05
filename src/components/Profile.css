@@ -217,4 +217,143 @@ svg:hover .tooltip {
   gap: 100px;
   background-color: whitesmoke;
 }
+@media (max-width: 300px) {
+  .profile-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
 
+  .profile-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+
+  .profile-picture-container {
+    position: relative;
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+  .profile-avatar {
+    width: 100px;
+    height: 100px;
+  }
+
+  .edit-profile-icon {
+    position: absolute;
+    left: initial;
+    bottom: initial;
+    font-size: 15px;
+    width: 100px;
+    padding: 5px;
+    margin-top: 40px;
+  }
+
+  .profile-username-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .profile-username {
+    font-size: 18px;
+    margin-top: -30px;
+    position: absolute;
+  }
+
+  .follow-button,
+  .following-button {
+    font-size: 14px;
+    padding: 5px 10px;
+  }
+
+  .profile-info {
+    margin-bottom: 10px;
+  }
+
+  .profile-stats {
+    justify-content: space-around;
+    margin-bottom: 5px;
+  }
+
+  .stat {
+    margin-right: 0;
+    margin-bottom: 5px;
+  }
+
+  .stat-count {
+    font-size: 16px;
+  }
+
+  .stat-label {
+    font-size: 12px;
+  }
+
+  .profile-bio {
+    margin-bottom: 5px;
+  }
+
+  .profile-fullname-input {
+    width: 150px;
+    padding: 2px;
+    font-size: 14px;
+  }
+
+  .profile-fullname {
+    font-size: 16px;
+  }
+
+  .profile-description {
+    font-size: 12px;
+  }
+
+  .save-profile-button {
+    font-size: 14px;
+    padding: 5px 10px;
+  }
+
+  .profile-gallery img {
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+  }
+
+  .signout-button {
+    font-size: 14px;
+    padding: 5px 10px;
+    margin-top: 10px;
+  }
+
+  .uiverse {
+    width: 100px;
+    height: 30px;
+    font-size: 12px;
+    margin: 5px;
+    padding: 5px;
+  }
+
+  .tooltip {
+    font-size: 10px;
+    padding: 2px 4px;
+  }
+
+  .tooltip::before {
+    content: none;
+  }
+  
+  .loca {
+    gap: 20px;
+    position: relative;
+    margin-top: 30px;
+  }
+  .cart-icon{
+    position: absolute;
+    top: 5px;
+    right: 1px;
+  }
+  
+}
