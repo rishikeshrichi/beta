@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.b45949ae.css",
-    "main.js": "/static/js/main.744120e0.js",
+    "main.css": "/static/css/main.bce90ef0.css",
+    "main.js": "/static/js/main.61b10ed9.js",
     "static/media/TastyTrends Welcome page.png": "/static/media/TastyTrends Welcome page.9de5bd9574a6dc27cc48.png",
     "static/media/TastyTrends Welcome page (2).png": "/static/media/TastyTrends Welcome page (2).78f160b4f0d78b1021da.png",
     "static/media/TastyTrends Welcome page (3).png": "/static/media/TastyTrends Welcome page (3).7a48d30d476236e51bec.png",
@@ -13,11 +13,11 @@
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/index.html",
     "static/media/Ads.txt": "/static/media/Ads.3b0cc3688a427903020b.txt",
-    "main.b45949ae.css.map": "/static/css/main.b45949ae.css.map",
-    "main.744120e0.js.map": "/static/js/main.744120e0.js.map"
+    "main.bce90ef0.css.map": "/static/css/main.bce90ef0.css.map",
+    "main.61b10ed9.js.map": "/static/js/main.61b10ed9.js.map"
   },
   "entrypoints": [
-    "static/css/main.b45949ae.css",
-    "static/js/main.744120e0.js"
+    "static/css/main.bce90ef0.css",
+    "static/js/main.61b10ed9.js"
   ]
 }
