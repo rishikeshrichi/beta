@@ -1,0 +1,262 @@
+
+.upload-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    margin-top: 10%;
+    border: 1px solid #e5e5e5;
+    border-radius: 5px;
+    background-color: #fff;
+    
+  }
+  
+  .upload-container h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    color: #333;
+  }
+  
+  .upload-container label {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .upload-container input[type="text"],
+  .upload-container textarea {
+    width: 150%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: vertical;
+    color: #555;
+  }
+  
+  .upload-container textarea {
+    height: 150px;
+  }
+  
+  .upload-container textarea {
+    height: 150px;
+  }
+  
+  .upload-container button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #ff6f00;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .upload-container button[type="submit"]:hover {
+    background-color: #ff5c00;
+  }
+  
+  .upload-container input[type="file"] {
+    display: none;
+  }
+  
+  .upload-container .custom-file-upload {
+    display: flex;
+    padding: 10px 20px;
+    background-color: #ffd000;
+    color: #000000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .upload-container .custom-file-upload:hover {
+    background-color: #ffa600;
+  }
+  
+  .image-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .image-preview {
+    position: relative;
+    margin-left: 10%;
+    width: fit-content;
+  }
+  
+  .image-preview img {
+    max-width: 30rem;
+    height: auto;
+    margin-left: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .remove-button {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    width: 30px;
+    height: 30px;
+    background-color: orange;
+    color: rgb(255, 255, 255);
+    border-radius: 4px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    padding: 0;
+    outline-color: #000000;
+    outline-width: 12px;
+  }
+  
+  .remove-button:hover,
+  .remove-button:focus {
+    background-color: transparent;
+  }
+  @media (max-width:600px) {
+    .image-container {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        margin-bottom: 20px;
+      }
+      
+      .image-preview {
+        position: relative;
+        margin-right: 10px;
+      }
+      
+      .image-preview img {
+        max-width: 25rem;
+        height: auto;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+      }
+      .user{
+        flex-direction: column;
+        align-items: center;
+      }
+      .codepen-button{
+       margin-left: 80px;
+      }
+  }
+@media (max-width:400px){
+  .codepen-button{
+    margin-left: 50px;
+  }
+}
+.codepen-button {
+  display: block;
+  top: 10%;
+  cursor: pointer;
+  color: white;
+  
+  position: relative;
+  text-decoration: none;
+  font-weight: 500;
+  height: 1%;
+  font-size: small;
+  border-radius: 50px;
+  overflow: hidden;
+  padding: 2px;
+ 
+}
+
+.codepen-button::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 425px;
+  height: 100%;
+  background: linear-gradient(115deg,#4fcf70,#fad648,#a767e5,#12bcfe,#44ce7b);
+  background-size: 25% 100%;
+  animation: an-at-keyframe-css-at-rule-that-translates-via-the-transform-property-the-background-by-negative-25-percent-of-its-width-so-that-it-gives-a-nice-border-animation_-We-use-the-translate-property-to-have-a-nice-transition-so-it_s-not-a-jerk-of-a-start-or-stop .75s linear infinite;
+  animation-play-state: paused;
+  translate: -5% 0%;
+  transition: translate 0.25s ease-out;
+  border-radius: 50px;
+}
+
+.codepen-button:hover::before {
+  animation-play-state: running;
+  transition-duration: 0.75s;
+  translate: 0% 0%;
+}
+
+@keyframes an-at-keyframe-css-at-rule-that-translates-via-the-transform-property-the-background-by-negative-25-percent-of-its-width-so-that-it-gives-a-nice-border-animation_-We-use-the-translate-property-to-have-a-nice-transition-so-it_s-not-a-jerk-of-a-start-or-stop {
+  to {
+    transform: translateX(-25%);
+  }
+}
+
+.codepen-button span {
+  position: relative;
+  display: block;
+  padding: 7px;
+  width: 200px;
+  font-size: 1.1rem;
+  background: #000;
+  border-radius: 40px;
+  height: 10%;
+}
+@media (max-width:700px) {
+  
+  .codepen-button {
+    display: block;
+    top: 10%;
+    cursor: pointer;
+    color: white;
+    
+    position: relative;
+    text-decoration: none;
+    font-weight: 500;
+    height: 1%;
+    font-size: small;
+    border-radius: 40px;
+    overflow: hidden;
+    padding: 3px;
+   
+  }
+
+.codepen-button::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 210px;
+  height: 100%;
+  background: linear-gradient(115deg,#4fcf70,#fad648,#a767e5,#12bcfe,#44ce7b);
+  background-size: 50% 100%;
+  animation: an-at-keyframe-css-at-rule-that-translates-via-the-transform-property-the-background-by-negative-25-percent-of-its-width-so-that-it-gives-a-nice-border-animation_-We-use-the-translate-property-to-have-a-nice-transition-so-it_s-not-a-jerk-of-a-start-or-stop .75s linear infinite;
+  animation-play-state: paused;
+  translate: -1% 0%;
+  transition:ease translate 0.25s ;
+  border-radius: 100px;
+}
+
+.codepen-button:hover::before {
+  animation-play-state: running;
+  transition-duration: 0.15s;
+  translate: 0% 0%;
+}
+
+@keyframes an-at-keyframe-css-at-rule-that-translates-via-the-transform-property-the-background-by-negative-25-percent-of-its-width-so-that-it-gives-a-nice-border-animation_-We-use-the-translate-property-to-have-a-nice-transition-so-it_s-not-a-jerk-of-a-start-or-stop {
+  to {
+    transform: translateX(-25%);
+  }
+}
+
+.codepen-button span {
+  position: relative;
+  display: block;
+  padding: 10px;
+  width: 200px;
+  font-size: 1.1rem;
+  background: #000;
+  border-radius: 40px;
+  height: 10%;
+}
+}

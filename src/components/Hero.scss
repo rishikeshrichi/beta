@@ -1,0 +1,151 @@
+.hero {
+  position: relative;
+  display: flex;
+  justify-content: right;
+  width: 100%;
+  height: 45rem;
+  background-size: cover;
+  animation: rotateBg 20s infinite ease-in-out;
+  align-items: self-start;
+}
+
+.hero::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+@keyframes rotateBg {
+  0% {
+    background: url("https://firebasestorage.googleapis.com/v0/b/flavory-beta.appspot.com/o/Assets%2FLaptop%2FDesigner%20(2).png?alt=media&token=e21cf9bf-c320-4be3-84b8-4112d2b26773&_gl=1*152zytj*_ga*NzUzNTQwNjE3LjE2ODM5NzY1MjE.*_ga_CW55HF8NVT*MTY4NTY4MzM0MC4zOC4xLjE2ODU2ODM0NjcuMC4wLjA.");
+    background-size: cover;
+    animation: backwards;
+  }
+  25% {
+    background: url('https://firebasestorage.googleapis.com/v0/b/flavory-beta.appspot.com/o/Assets%2FLaptop%2Fwelcome%20page%20food%20recipe%20webiste%20baground%20nameTastyTrends%20(1).png?alt=media&token=2bfc5f37-1348-49d3-9e8c-275faab28689&_gl=1*l61ug9*_ga*NzUzNTQwNjE3LjE2ODM5NzY1MjE.*_ga_CW55HF8NVT*MTY4NTY4MzM0MC4zOC4xLjE2ODU2ODM1NTYuMC4wLjA.') no-repeat center center fixed;
+    background-size: cover;
+  }
+  50% {
+    background: url('https://firebasestorage.googleapis.com/v0/b/flavory-beta.appspot.com/o/Assets%2FLaptop%2Fwelcome%20page%20food%20recipe%20webiste%20baground%20nameTastyTrends%20(2).png?alt=media&token=81f2d506-850e-41cb-9afe-d8afe262da69&_gl=1*pjl0g0*_ga*NzUzNTQwNjE3LjE2ODM5NzY1MjE.*_ga_CW55HF8NVT*MTY4NTY4MzM0MC4zOC4xLjE2ODU2ODM1OTIuMC4wLjA.') no-repeat center center fixed;
+    background-size: cover;
+  }
+  75% {
+    background: url('https://firebasestorage.googleapis.com/v0/b/flavory-beta.appspot.com/o/Assets%2FLaptop%2Fwelcome%20page%20food%20recipe%20webiste%20baground%20nameTastyTrends%20(3).png?alt=media&token=32cde489-b1a1-4803-a56a-4528254a6b61&_gl=1*cudxmf*_ga*NzUzNTQwNjE3LjE2ODM5NzY1MjE.*_ga_CW55HF8NVT*MTY4NTY4MzM0MC4zOC4xLjE2ODU2ODM2MjUuMC4wLjA.') ;
+    background-size: cover;
+  }
+  100% {
+    background: url('https://firebasestorage.googleapis.com/v0/b/flavory-beta.appspot.com/o/Assets%2FLaptop%2Fwelcome%20page%20food%20recipe%20webiste%20baground%20nameTastyTrends.png?alt=media&token=65d5caba-aca6-487c-baab-4e5519adc0f5&_gl=1*19cyuh0*_ga*NzUzNTQwNjE3LjE2ODM5NzY1MjE.*_ga_CW55HF8NVT*MTY4NTY4MzM0MC4zOC4xLjE2ODU2ODM2NDAuMC4wLjA.');
+    background-size: cover;
+    animation-fill-mode: forwards;
+  }
+}
+
+
+
+
+
+.in {
+  color: yellow;
+}
+
+
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: transparent;
+  color: #fff;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.navbar-nav {
+  display: flex;
+  list-style: none;
+}
+
+.nav-item {
+  margin-left: 1rem;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #fff;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}
+.container {
+  position: relative;
+  --size-button: 40px;
+}
+.input-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  position: absolute;
+}
+@import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap');
+.p-e{
+font-family: 'Sedgwick Ave Display', cursive;
+color: white;
+font-display:initial;
+}
+.hero-text {
+  display: flex;
+  color: #ffffff;
+  text-shadow: 1px 1px #000;
+  font-size: 5vw; /* use viewport units for font-size */
+  font-weight: 500;
+  z-index: 1;
+  animation: fadeIn 2s forwards;
+  position: absolute;
+  top: 50%; /* position at the center of the screen */
+  left: 50%; /* position at the center of the screen */
+  transform: translate(-50%, -50%);
+  justify-content: center;
+  align-items: center;
+}
+@import url(https://fonts.googleapis.com/css?family=Titillium+Web:400,300,200,900,700,600);
+* {
+  box-sizing: border-box;
+}
+@media screen and (max-width: 900px) {
+
+  @keyframes rotateBg {
+    0% {
+      background: url('../animation/Asset/Mobile/TastyTrends\ Welcome\ page.png');
+      background-size: cover;
+      animation: backwards;
+    }
+    25% {
+      background: url('../animation/Asset//Mobile/Designer\ \(3\).png') no-repeat center center fixed;
+      background-size: cover;
+    }
+    50% {
+      background: url('../animation/Asset/Mobile/TastyTrends\ Welcome\ page\ \(1\).png') no-repeat center center fixed;
+      background-size: cover;
+    }
+    75% {
+      background: url('../animation/Asset/Mobile/TastyTrends\ Welcome\ page\ \(2\).png') no-repeat center center fixed;
+      background-size: cover;
+    }
+    100% {
+      background: url('../animation/Asset/Mobile/TastyTrends\ Welcome\ page\ \(3\).png') no-repeat center center fixed;
+      background-size: cover;
+    }
+  }
+
+}
