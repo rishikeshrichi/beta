@@ -1,23 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.bce90ef0.css",
-    "main.js": "/static/js/main.61b10ed9.js",
-    "static/media/TastyTrends Welcome page.png": "/static/media/TastyTrends Welcome page.9de5bd9574a6dc27cc48.png",
-    "static/media/TastyTrends Welcome page (2).png": "/static/media/TastyTrends Welcome page (2).78f160b4f0d78b1021da.png",
-    "static/media/TastyTrends Welcome page (3).png": "/static/media/TastyTrends Welcome page (3).7a48d30d476236e51bec.png",
-    "static/media/TastyTrends Welcome page (1).png": "/static/media/TastyTrends Welcome page (1).d408ace7d69460cb2d6f.png",
-    "static/media/Designer (3).png": "/static/media/Designer (3).5344d3416bca6e6f30eb.png",
-    "static/media/slick.svg": "/static/media/slick.2630a3e3eab21c607e21.svg",
-    "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
-    "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
-    "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
-    "index.html": "/index.html",
-    "static/media/Ads.txt": "/static/media/Ads.3b0cc3688a427903020b.txt",
-    "main.bce90ef0.css.map": "/static/css/main.bce90ef0.css.map",
-    "main.61b10ed9.js.map": "/static/js/main.61b10ed9.js.map"
+    "main.css": "/beta/static/css/main.d23210f6.css",
+    "main.js": "/beta/static/js/main.6deafbea.js",
+    "static/media/TastyTrends Welcome page.png": "/beta/static/media/TastyTrends Welcome page.9de5bd9574a6dc27cc48.png",
+    "static/media/TastyTrends Welcome page (2).png": "/beta/static/media/TastyTrends Welcome page (2).78f160b4f0d78b1021da.png",
+    "static/media/TastyTrends Welcome page (3).png": "/beta/static/media/TastyTrends Welcome page (3).7a48d30d476236e51bec.png",
+    "static/media/TastyTrends Welcome page (1).png": "/beta/static/media/TastyTrends Welcome page (1).d408ace7d69460cb2d6f.png",
+    "static/media/Designer (3).png": "/beta/static/media/Designer (3).5344d3416bca6e6f30eb.png",
+    "static/media/slick.svg": "/beta/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/beta/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "index.html": "/beta/index.html",
+    "static/media/slick.ttf": "/beta/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/beta/static/media/slick.295183786cd8a1389865.woff",
+    "static/media/TSAI.py": "/beta/static/media/TSAI.428f8acc33d6eb70495e.py",
+    "static/media/Ads.txt": "/beta/static/media/Ads.3b0cc3688a427903020b.txt",
+    "main.d23210f6.css.map": "/beta/static/css/main.d23210f6.css.map",
+    "main.6deafbea.js.map": "/beta/static/js/main.6deafbea.js.map"
   },
   "entrypoints": [
-    "static/css/main.bce90ef0.css",
-    "static/js/main.61b10ed9.js"
+    "static/css/main.d23210f6.css",
+    "static/js/main.6deafbea.js"
   ]
 }
